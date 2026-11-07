@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import Sidebar from "./components/Sidebar.jsx";
 import Dashboard from "./pages/Dashboard.jsx";
 import Historial from "./pages/Historial.jsx";
+import Mapa from "./pages/Mapa.jsx";
 import Planificacion from "./pages/Planificacion.jsx";
 import { PlanificacionProvider } from "./context/PlanificacionContext.jsx";
 
@@ -18,6 +19,7 @@ export default function App() {
               <Route path="/" element={<Dashboard />} />
               <Route path="/planificacion" element={<Planificacion />} />
               <Route path="/historial" element={<Historial />} />
+              <Route path="/mapa" element={<Mapa />} />
             </Routes>
           </div>
         </div>
